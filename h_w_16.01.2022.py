@@ -21,7 +21,7 @@ class Root(ABC):
 
     @abstractmethod
     def print_info(self):
-        pass
+        raise NotImplementedError
 
 
 class Linear(Root):
