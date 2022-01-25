@@ -15,7 +15,6 @@ class Root(ABC):
 
     def quad_equation(self):
         disc = self.val_2 * 2 + 4 * self.val_1 * 3
-        print(disc)
         root_1 = (self.val_2 + math.sqrt(disc)) / (2 * self.val_1)
         root_2 = (self.val_2 - math.sqrt(disc)) / (2 * self.val_1)
         return root_1, root_2
